@@ -1,7 +1,7 @@
-package com.test;
+package test;
 
-import com.context.Context;
-import com.service.impl.RedState;
+import service.impl.RedState;
+import context.Context;
 
 public class StateTest {
 

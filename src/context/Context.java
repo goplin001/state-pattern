@@ -1,7 +1,7 @@
-package com.context;
+package context;
 
-import com.enums.ColorEnum;
-import com.service.State;
+import service.State;
+import enums.ColorEnum;
 
 public class Context {
 	private State state;

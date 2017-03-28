@@ -1,4 +1,4 @@
-package com.enums;
+package enums;
 
 public enum ColorEnum {
 	RED,
