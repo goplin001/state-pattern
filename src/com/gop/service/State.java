@@ -1,7 +1,7 @@
-package service;
+package com.gop.service;
 
-import context.Context;
-import enums.ColorEnum;
+import com.gop.context.Context;
+import com.gop.enums.ColorEnum;
 
 public interface State {
 	ColorEnum leftTurn(Context context);

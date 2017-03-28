@@ -1,27 +1,27 @@
-package service.impl;
+package com.gop.service.impl;
 
-import service.State;
-import context.Context;
-import enums.ColorEnum;
+import com.gop.context.Context;
+import com.gop.enums.ColorEnum;
+import com.gop.service.State;
 
-public class PinkState implements State {
+public class BlueState implements State {
 
 	@Override
 	public ColorEnum leftTurn(Context context) {
 		// TODO Auto-generated method stub
-		return ColorEnum.RED;
+		return ColorEnum.PINK;
 	}
 
 	@Override
 	public ColorEnum rightTurn(Context context) {
 		// TODO Auto-generated method stub
-		return ColorEnum.BLUE;
+		return ColorEnum.YELLOW;
 	}
 
 	@Override
 	public ColorEnum getColor() {
 		// TODO Auto-generated method stub
-		return ColorEnum.PINK;
+		return ColorEnum.BLUE;
 	}
 
 }

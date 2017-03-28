@@ -1,8 +1,8 @@
-package service.impl;
+package com.gop.service.impl;
 
-import service.State;
-import context.Context;
-import enums.ColorEnum;
+import com.gop.context.Context;
+import com.gop.enums.ColorEnum;
+import com.gop.service.State;
 
 public class RedState implements State {
 	
